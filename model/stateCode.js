@@ -8,8 +8,7 @@ const state = new Schema({
   },
   funfacts: {
     funfacts: Array,
-    required: false,
   },
 });
 
-module.exports = mongoose.model("StateCode", StateCode);
+module.exports = mongoose.model("state", state);

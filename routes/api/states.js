@@ -4,8 +4,7 @@ const stateController = require("../../controller/stateController");
 
 router
   .route("/")
-  .get(employeeController.GetStates)
-
+  .get(stateController.GetStates)
 
 router.route("/:id").get(stateController.GetState);
 

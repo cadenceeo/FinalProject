@@ -1,28 +1,23 @@
-// const data = {
-//   employees: require("../model/employees.json"),
-//   setEmployees: (data) => {
-//     this.employees = data;
-//   },
-// };
 
-const Employee = require("../model/Employee");
 
-//Get all employees
+const State = require("../model/stateCode");
+
+//Get all states
 const GetStates = async (req, res) => {
-  const states = await StateCode.find();
+  const states = await stateCode.find();
   if (!states)
     return res.status(400).json({ message: "No states found." });
   res.json(states);
 };
 
 
-//Get Employee
+//Get State
 const GetState = async (req, res) => {
   if (!req.params.id) {
     return res.status(400).json({ message: "State code is required. " });
   }
 
-  const state = await StateCode.findOne({ _id: req.params.id }).exec();
+  const state = await stateCode.findOne({ _id: req.params.id }).exec();
 
   if (!state) {
     return res

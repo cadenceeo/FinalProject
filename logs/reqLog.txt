@@ -1,0 +1,3 @@
+05-01-2023 	 04:40:30 	 6273ee63-023f-4a03-b6e9-c43967bed0ca 	 GET	undefined	/ 
+05-01-2023 	 04:40:30 	 43fd6d10-7e41-4df4-8c71-b2fcb68cd2cc 	 GET	undefined	/css/style.css 
+05-01-2023 	 04:40:30 	 bd7abc80-73de-4f5c-a130-57574c21439d 	 GET	undefined	/favicon.ico 
