@@ -1,3 +1,7 @@
 05-01-2023 	 04:40:30 	 6273ee63-023f-4a03-b6e9-c43967bed0ca 	 GET	undefined	/ 
 05-01-2023 	 04:40:30 	 43fd6d10-7e41-4df4-8c71-b2fcb68cd2cc 	 GET	undefined	/css/style.css 
 05-01-2023 	 04:40:30 	 bd7abc80-73de-4f5c-a130-57574c21439d 	 GET	undefined	/favicon.ico 
+05-01-2023 	 04:43:10 	 28d798a4-439e-46b9-ba63-67d2e77b38c2 	 POST	undefined	/register 
+05-01-2023 	 04:43:15 	 1baf3fcd-f36c-4fd1-8f0e-a016e80168f3 	 POST	undefined	/ 
+05-01-2023 	 04:43:16 	 b2c8352b-e832-4fac-a51e-a457d15158ee 	 POST	undefined	/ 
+05-01-2023 	 04:49:22 	 d3c7594c-3ecd-4e94-a95d-b04a16984f9c 	 GET	undefined	/states 
