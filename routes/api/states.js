@@ -4,8 +4,7 @@ const stateController = require("../../controller/stateController");
 
 router
   .route("/")
-  .get(stateController.GetStates)
+  .get(stateController.getAllStates)
 
-router.route("/:id").get(stateController.GetState);
 
 module.exports = router;
