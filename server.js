@@ -24,6 +24,8 @@ app.use("/subdir", express.static(path.join(__dirname, "/public")));
 // Routes
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
+app.use("/states/:state", require("./routes/state"));
+app.use("/states/:state/capital", require("./routes/capital"));
 // API Route
 app.use("/states", require("./routes/api/states"));
 
