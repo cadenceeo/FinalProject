@@ -5,3 +5,11 @@
 05-04-2023 	 05:53:45 	 3e6cdac3-dea6-4a57-8f6e-88e6883f7100 	 Error Cannot set headers after they are sent to the client 
 05-04-2023 	 05:58:24 	 0a99da16-75c0-4b9a-879b-76b142ee1eeb 	 Error Cannot set headers after they are sent to the client 
 05-04-2023 	 05:58:25 	 ccac0fa1-f678-4e86-bd5a-2edb14d12c6b 	 Error Cannot set headers after they are sent to the client 
+05-06-2023 	 02:19:10 	 fc7d088b-4f58-45f1-b572-e32aba73c3c5 	 ReferenceError Kansas is not defined 
+05-06-2023 	 02:19:46 	 1825e413-3d8e-48e3-8379-52efda878939 	 TypeError Kansas is not a function 
+05-06-2023 	 02:20:59 	 91564477-6cf4-45d7-93d3-41c3de351d08 	 ReferenceError Kansas is not defined 
+05-06-2023 	 02:21:23 	 902a0d40-bdbb-437c-b0aa-c60f81fdf16e 	 ReferenceError Kansas is not defined 
+05-06-2023 	 02:22:37 	 cbbf7bf5-975f-47ce-80cf-ca3f58d1996f 	 ReferenceError Kansas is not defined 
+05-06-2023 	 02:25:14 	 5d48c42b-6bcb-4b26-92da-653d018faf4b 	 TypeError Cannot read properties of undefined (reading 'capital') 
+05-06-2023 	 02:25:31 	 a6d5de70-274b-4ca7-b80e-2b0bcc0e7cd1 	 ReferenceError Topeka is not defined 
+05-06-2023 	 02:25:47 	 daafbf4f-53e5-4b2f-ad20-6397c4ba0052 	 TypeError Cannot read properties of undefined (reading 'capital') 

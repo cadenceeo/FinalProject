@@ -26,6 +26,12 @@ app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
 app.use("/states/:state", require("./routes/state"));
 app.use("/states/:state/capital", require("./routes/capital"));
+app.use("/states/:state/nickname", require("./routes/nickname"));
+app.use("/states/:state/population", require("./routes/population"));
+app.use("/states/:state/admission", require("./routes/admission"));
+app.use("/states/:state/funfact", require("./routes/funfact"));
+app.use("/states/?contig=true", require("./routes/contigTrue"));
+app.use("/states/?contig=false", require("./routes/contigFalse"));
 // API Route
 app.use("/states", require("./routes/api/states"));
 
