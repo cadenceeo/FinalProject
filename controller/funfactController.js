@@ -8,6 +8,10 @@ function Kansas(name) {
   };
 }
 
+const getFunfact= (req, res) => {
+  res.json(Kansas(states.find(Kansas)));
+};
+
 /* const GetFunFactsMongo = async (req, res) => {
   const state = await State.find();
   if (!state)
@@ -15,9 +19,7 @@ function Kansas(name) {
   res.json(state);
 }; */
 
-const getFunfact= (req, res) => {
-  res.json(Kansas(states.find(Kansas)));
-};
+
 
 const handleNewFunfact = async (req, res) => {
     const stateCode = req.body.stateCode;
