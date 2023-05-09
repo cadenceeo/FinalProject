@@ -13,3 +13,4 @@
 05-06-2023 	 02:25:14 	 5d48c42b-6bcb-4b26-92da-653d018faf4b 	 TypeError Cannot read properties of undefined (reading 'capital') 
 05-06-2023 	 02:25:31 	 a6d5de70-274b-4ca7-b80e-2b0bcc0e7cd1 	 ReferenceError Topeka is not defined 
 05-06-2023 	 02:25:47 	 daafbf4f-53e5-4b2f-ad20-6397c4ba0052 	 TypeError Cannot read properties of undefined (reading 'capital') 
+05-09-2023 	 11:02:03 	 43d8f753-0336-4d91-b592-3381b2113ce1 	 SyntaxError Expected ',' or '}' after property value in JSON at position 19 

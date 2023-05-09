@@ -7,7 +7,7 @@ const state = new Schema({
     required: true,
   },
   funfacts: {
-    funfacts: Array,
+    type: Array,
   },
 });
 
